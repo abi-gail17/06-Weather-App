@@ -1,0 +1,131 @@
+body {
+    background-color: #9ebcdd;
+}
+
+.header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.container {
+    margin: 20px;
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+}
+
+.search-city {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.search-city h3 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #879bb2;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
+
+.daily-container {
+    background-color: #518cca; 
+    color: white;
+    border-style: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+}
+
+.day-weather-card {
+    border-style: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.day-weather-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.day-weather-body p {
+    padding: 5px;
+}
+
+.day-weather-body img {
+    width: 20%;
+    align-items: right;
+    margin-left: 20px;
+}
+
+.weekly-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.weekly-forecast {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.weekly-forecast h4 {
+    width: 100%;
+    font-size: 40px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+
+.week-card {
+   width: 90%;
+   background-color: #518cca; 
+   color: white;
+   border-style: none;
+   border-radius: 5px;
+   padding: 10px;
+   margin: 10px;
+   display: inline-flex;
+   height: 300px;
+}
+
+
+.week-card-body {
+    margin-left: 5px;
+    font-size: 24px;
+}
+
+.week-card-body p {
+    padding: 5px;
+}
+
